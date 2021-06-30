@@ -178,7 +178,7 @@ Watts.
 PARTS LIST
 
   |Circuit Reference|Value|Package|
-  |:----------------|:----|:------|
+  |:---------------:|:---:|:-----:|
   |C1, C2|10nF 50V X7R|0805|
   |C3, C5|100nF 50V X7R|0805|
   |C4|4µ7 16V Tantalum|1206|
@@ -201,8 +201,8 @@ PARTS LIST
   |Tr1|BN-43-202 Ferrite Core|
 
 Miscellaneous:
-Sub-miniature rocker switch
-TP4056 charging module
-3.7V LiPo battery
-OLED Display Bezel
-JST plugs 2 and 4 way
+<p>Sub-miniature rocker switch</p>
+<p>TP4056 charging module</p>
+<p>3.7V LiPo battery</p>
+<p>OLED Display Bezel</p>
+<p>JST plugs 2 and 4 way</p>

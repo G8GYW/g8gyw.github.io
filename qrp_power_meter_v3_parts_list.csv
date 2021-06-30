@@ -1,0 +1,49 @@
+Circuit Reference,Value,Package
+,,
+"C1, C2",10nF 50V X7R,0805
+,,
+"C3, C5",100nF 50V X7R,0805
+,,
+C4,4µ7 16V Tantalum,1206
+,,
+"D1, D2",1N5711,SOD323
+,,
+IC1,ATmega328P-PU,DIL28
+,,
+"R1, R2, R5, R6",100R 1%,1206
+,,
+"R3, R7",18k 1%,0805
+,,
+"R4, R8, R11",10k 1%,0805
+,,
+R10,10k 5%,0805
+,,
+R9,39k 1%,0805
+,,
+SK1,SMA_EDGE_CONNECTOR,
+,,
+SK2,SMA_EDGE_CONNECTOR,
+,,
+SK3,JST B4B-XH-2,
+,,
+SK4,3+3 way PCB header,
+,,
+SK5,JST B2B-XH-2,
+,,
+SK6,JST B4B-XH-2,
+,,
+SK7,JST B2B-XH-2,
+,,
+TP1,1 Way PCB header,
+,,
+TP2,1 Way PCB header,
+,,
+Tr1,BN-43-202 Ferrite Core,
+,,
+,,
+Miscellaneous:,,
+Sub-miniature rocker switch,,
+TP4056 charging module,,
+3.7V LiPo battery,,
+OLED Display Bezel,,
+JST plugs 2 and 4 way,,

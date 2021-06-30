@@ -178,7 +178,6 @@ Watts.
 PARTS LIST
 
 |Circuit Reference|Value|Package|
-
 |:----------------|:----|:------|
 |C1, C2|10nF 50V X7R|0805|
 |C3, C5|100nF 50V X7R|0805|

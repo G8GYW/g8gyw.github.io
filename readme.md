@@ -62,7 +62,7 @@ voltage at 4.2V). Fortunately a very small charging module based on the
 TP4056 IC is available very cheaply and all you need then is a USB lead
 and 5 Volt supply. You will also need to change a surface mount resistor
 on the charger board to set the current to the correct value (150mA).
-This shown in the photograph below, and the value I used was 8.2k. When
+This is shown in the photograph below, and the value I used was 8.2k. When
 using the charger you have to open the tin lid to see the status LEDs,
 but you could remove these and wire the pads to panel mounted ones
 instead.
@@ -163,7 +163,7 @@ value in the Calibration Factors section of the code with the measured
 value and load the program again.
 
 Now connect up the battery, charger and on/off switch, put the switch in
-the on position and the screen should now display an accurate battery
+the on position and the screen should display an accurate battery
 voltage. With a suitable 50 ohm load on RFout, apply varying power
 levels to RFin and observe the readings on the display which should be
 within 5% of the true values. If the error is significantly higher, it
@@ -173,7 +173,7 @@ in the code.
 Check the VSWR readings using different loads and power levels. Again,
 the accuracy should be better than 5%.
 
-The maximum input level for accurate power readings is 12 Watts. The
+The range of input levels for accurate readings is 0.5 to 10 Watts. The
 absolute maximum input level before component damage occurs is about 25
 Watts.
 

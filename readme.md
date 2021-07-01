@@ -148,7 +148,7 @@ programming adapter.
 
 Insert the Atmega328P into the socket and connect a PC or laptop to the
 ISP connector via the USBasp adapter. This will power up the board.
-Start the Arduino IDE and load [QRP_POWER_METER.ino](https://g8gyw.github.io/QRP_POWER_METER.ino).
+Start the Arduino IDE and load [QRP_POWER_METER.ino](QRP_POWER_METER.ino).
 Open the Tools menu and replicate the settings shown below, then hold the Shift key and click
 the Upload button. When programming is complete the display should show
 the startup screen, followed a few seconds later by the measurement

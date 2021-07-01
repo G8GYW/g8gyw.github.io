@@ -94,7 +94,11 @@ The PCB layout files are here:
 
 [PCB bottom](pcb%20layout%20bottom_v3.pdf)
 
-Start by soldering the surface mount components on the bottom side.
+Everyone has their own favourite method for making PCBs. I use a laser printer, toner
+transfer paper, a laminating machine and ferric chloride. When both sides are etched and the board
+is drilled I use an electroless tin plate solution to protect it from tarnishing.
+
+Start the assembly by soldering the surface mount components on the bottom side.
 You will need a soldering iron with a fine tip, some 0.5mm diameter solder wire,
 flux and strong reading glasses. The Schottky diodes are particularly small and 
 it's difficult to see the polarity marking. Finish off by fitting the connectors 

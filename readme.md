@@ -148,8 +148,8 @@ programming adapter.
 
 Insert the Atmega328P into the socket and connect a PC or laptop to the
 ISP connector via the USBasp adapter. This will power up the board.
-Start the Arduino IDE and load QRP_POWER_METER.ino. Open the Tools menu and
-replicate the settings shown below, then hold the Shift key and click
+Start the Arduino IDE and load [QRP_POWER_METER.ino](https://g8gyw.github.io/QRP_POWER_METER.ino).
+Open the Tools menu and replicate the settings shown below, then hold the Shift key and click
 the Upload button. When programming is complete the display should show
 the startup screen, followed a few seconds later by the measurement
 screen.
@@ -202,6 +202,7 @@ Watts.
 |TP2|1 Way PCB header|
 |Tr1|BN-43-202 Ferrite Core|
 <strong>Miscellaneous:</strong>
+Tobacco tin
 Sub-miniature rocker switch
 TP4056 charging module
 3.7V LiPo battery

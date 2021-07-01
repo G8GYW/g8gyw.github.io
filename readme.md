@@ -1,4 +1,6 @@
-INTRODUCTION
+<h2>QRP DIGITAL RF POWER & VSWR METER</h2>
+
+<h3>INTRODUCTION</h3>
 
 Here is a design for a digital QRP RF power meter that fits in a
 tobacco tin, complete with battery and charger. It displays average
@@ -6,11 +8,11 @@ power from 0.5 Watts to 12 Watts, VSWR and battery voltage.
 
 <p align = "center"><img src="./closed.jpg" width = "480"></p>
 
-SCHEMATIC
+<h3>SCHEMATIC</h3>
 
 <p align = "center"><img src="./schematic_v3_.jpg" width = "800"></p>
 
-DESCRIPTION
+<h3>DESCRIPTION</h3>
 
 The design utilises a Stockton Bridge. I used a binocular core instead
 of the usual pair of toroids as this was smaller and easier to
@@ -71,7 +73,7 @@ The software is provided as an Arduino sketch. The code includes typical
 values for the processor's bandgap reference and the calibration
 factors. These parameters can be adjusted during initial testing.
 
-CONSTRUCTING THE TRANSFORMER
+<h3>CONSTRUCTING THE TRANSFORMER</h3>
 
 Winding the transformer is straightforward. Pass 10 turns of 27swg
 enamelled copper wire through each hole in the core then strip, twist
@@ -84,7 +86,7 @@ are shown below.
 
 <p align = "center"><img src="./transformer.jpg" width = "800"></p>
 
-BUILDING THE PCB
+<h3>BUILDING THE PCB</h3>
 
 The PCB layout files are here:
 
@@ -138,7 +140,7 @@ the tin and the battery and charger are attached with sticky pads.
 
 <p align = "center"><img src="./open.jpg" width = "480"></p>
 
-PROGRAMMING
+<h3>PROGRAMMING</h3>
 
 There are several ways of programming the processor. My preferred method
 is to use the Arduino IDE with the MiniCore Board Manager and a USBasp
@@ -175,7 +177,7 @@ The maximum input level for accurate power readings is 12 Watts. The
 absolute maximum input level before component damage occurs is about 25
 Watts.
 
-PARTS LIST
+<h3>PARTS LIST</h3>
 
 |Circuit Reference|Value|Package|
 |:------|:------|:------|
@@ -199,7 +201,7 @@ PARTS LIST
 |TP1|1 Way PCB header|
 |TP2|1 Way PCB header|
 |Tr1|BN-43-202 Ferrite Core|
-Miscellaneous:
+<strong>Miscellaneous:</strong>
 Sub-miniature rocker switch
 TP4056 charging module
 3.7V LiPo battery

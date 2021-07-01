@@ -23,7 +23,7 @@ of directivity.
 The input waveform is half wave rectified by a 1N5711 Schottky diode.
 The resulting dc voltage on TP1 is:
 
-<p align = "center">Vfwd = (Vin<sub>pk-pk</sub> / 20) - Vdiode</p>
+Vfwd = (Vin<sub>pk-pk</sub> / 20) - Vdiode
 
 where Vdiode is the 1N5711 forward voltage drop (typically 0.33V).
 

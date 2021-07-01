@@ -36,7 +36,7 @@ of the rechargeable battery. The display is a 3.3V compatible 0.96"
 
 My first attempts to calculate forward and reverse power were based on this equation:
 
-<p align = "center">Pfwd = (20 * (Vfwd + Vdiode))<sup>2</sup> / 400</p>
+<p align = "center">Pfwd = (20 * (Vfwd + Vdiode))^2 / 400</p>
 
 While this worked well for forward power there was a problem when calculating VSWR because
 even with a perfect match, where the reverse power is zero, the equation gives a minimum

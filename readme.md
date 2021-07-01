@@ -23,7 +23,7 @@ of directivity.
 The input waveform is half wave rectified by a 1N5711 Schottky diode.
 The resulting dc voltage on TP1 is:
 
-<p align = "center">Vfwd = (Vin<sup>pk-pk</sup> / 20) - Vdiode</p>
+<p align = "center">Vfwd = (Vin<sub>pk-pk</sub> / 20) - Vdiode</p>
 
 where Vdiode is the 1N5711 forward voltage drop (typically 0.33V).
 
@@ -36,7 +36,7 @@ of the rechargeable battery. The display is a 3.3V compatible 0.96"
 
 My first attempts to calculate forward and reverse power were based on this equation:
 
-<p align = "center">Pfwd = (20 * (Vfwd + Vdiode))<sub>2</sub> / 400</p>
+<p align = "center">Pfwd = (20 * (Vfwd + Vdiode))<sup>2</sup> / 400</p>
 
 While this worked well for forward power there was a problem when calculating VSWR because
 even with a perfect match, where the reverse power is zero, the equation gives a minimum

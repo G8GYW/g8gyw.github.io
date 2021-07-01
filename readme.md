@@ -90,9 +90,9 @@ are shown below.
 
 The PCB layout files are here:
 
-<a href="https://github.com/G8GYW/QRP-RF-power-meter/blob/main/pcb%20layout%20top_v3.pdf">PCB top</a>
+[PCB top](pcb%20layout%20top_v3.pdf)
 
-<a href="https://github.com/G8GYW/QRP-RF-power-meter/blob/main/pcb%20layout%20bottom_v3.pdf">PCB bottom</a>
+[PCB bottom](pcb%20layout%20bottom_v3.pdf)
 
 Start by soldering the surface mount components on the bottom side.
 You will need a soldering iron with a fine tip, some 0.5mm diameter solder wire,

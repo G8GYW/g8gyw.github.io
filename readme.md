@@ -170,16 +170,14 @@ Now connect up the battery, charger and on/off switch, put the switch in
 the on position and the screen should display an accurate battery
 voltage. With a suitable 50 ohm load on RFout, apply varying power
 levels to RFin and observe the readings on the display which should be
-within 5% of the true values. If the error is significantly higher, it
-can be corrected by making small adjustments to the calibration factors
+within 5% of the true values between 1 and 10 Watts. If the error is significantly higher,
+it can be corrected by making small adjustments to the calibration factors
 in the code.
 
 Check the VSWR readings using different loads and power levels. Again,
-the accuracy should be better than 5%.
+the accuracy should be better than 5% between 1 and 10 Watts.
 
-The range of input levels for accurate readings is 0.5 to 10 Watts. The
-absolute maximum input level before component damage occurs is about 25
-Watts.
+The absolute maximum input level before component damage occurs is about 25 Watts.
 
 <h3>PARTS LIST</h3>
 

@@ -208,5 +208,6 @@ Tobacco tin
 Sub-miniature rocker switch
 TP4056 charging module
 3.7V LiPo battery
-OLED Display Bezel
+OLED display 0.96" 128x64 3.3V compatible 
+Display Bezel
 JST plugs 2 and 4 way

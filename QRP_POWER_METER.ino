@@ -31,7 +31,7 @@
 #include <Adafruit_SSD1306.h>
 #include <Filter.h>
 
-#define VERSION   "v1.05"
+#define VERSION   "v1.06"
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 #define OLED_RESET    -1 // Reset pin # (or -1 if sharing Arduino reset pin)
@@ -53,10 +53,10 @@ float Vbat;   // Battery voltage
 // The actual voltage should be measured on pin 21 and entered below.
 
 // The response of the 1N5711 diodes follows a curve represented by the equation:
-// Pfwd = aVfwd^2 + bVfwd
+// Pfwd = aVfwd^2 + bVfwd (and the same for Prev and Vrev)
 // where a and b are constants determined by plotting Power In vs Vfwd and performing a curve fit.
 // An excellent tool for this can be found at https://veusz.github.io/
-// The values of a and b below can be adjusted if necessary to improve accuracy.
+// The values of a and b below can be adjusted if necessary to improve accuracy (try adjusing b first).
 
 const float IntRef = 1.1;
 const float a = 1.0;
@@ -82,7 +82,7 @@ float CalculateSWR ()
   { //exclude residual values
     Prev = 0;
   }
-  Gamma = sqrt(Prev / Pfwd); // Calculate refection coefficient
+  Gamma = sqrt(Prev / Pfwd); // Calculate reflection coefficient
 
   SWR = (1 + Gamma) / (1 - Gamma);
   SWR = constrain(SWR, 1, 99.9);
@@ -156,7 +156,12 @@ void loop()
   display.setCursor (12, 36);
   display.print("SWR: ");
   display.setCursor (60, 36);
+  if (Pfwd < 0.01)
+  { display.print("**.*");
+  }
+   else {
   display.print(SmoothVSWR, 1); // Display VSWR to one decimal place
+  }
   display.display();
 
 }

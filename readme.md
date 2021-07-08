@@ -177,6 +177,9 @@ in the code.
 Check the VSWR readings using different loads and power levels. Again,
 the accuracy should be better than 5% between 1 and 10 Watts.
 
+The maximum power reading is about 12 Watts as the forward voltage approaches the 
+upper limit of the ADC input range.
+
 The absolute maximum input level before component damage occurs is about 25 Watts.
 
 <h3>PARTS LIST</h3>

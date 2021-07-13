@@ -5,6 +5,7 @@
 Here is a design for a digital QRP RF power meter that fits in a
 tobacco tin, complete with battery and charger. It displays average
 power from 0.5 Watts to 12 Watts, VSWR and battery voltage.
+The component cost, excluding PCB and display bezel, was around £25.
 
 <p align = "center"><img src="./closed.jpg" width = "480"></p>
 
@@ -139,8 +140,7 @@ much easier to work with than aluminium cases. I cut out the rectangular
 hole for the display bezel with a small cutting disk in a Dremel. The
 other holes were made with drills and files. The PCB is attached to the
 tin with four M3 screws with nuts underneath to act as stand-offs. The
-display bezel (the most expensive component in the build) is glued to
-the tin and the battery and charger are attached with sticky pads.
+display bezel is glued to the tin and the battery and charger are attached with sticky pads.
 
 <p align = "center"><img src="./open.jpg" width = "480"></p>
 

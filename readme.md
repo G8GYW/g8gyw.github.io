@@ -130,10 +130,10 @@ compare the result with the Table below.
 
   | Power In (Watts) | Volts In (pk-pk) | TP1 (Vfwd) |
   |:----------------:|:-----------------:|:-----------:|
-  | 1 | 20.0 | 0.65 |
-  | 2 | 28.3 | 1.06 |
-  | 5 | 44.7 | 1.88 |
-  | 10 | 63.2 | 2.81 |
+  | 1 | 20.0 | 0.7 |
+  | 2 | 28.3 | 1.1 |
+  | 5 | 44.7 | 1.9 |
+  | 10 | 63.2 | 2.8 |
 
 If everything looks good then the board can be fitted to the case. Tobacco tins are
 much easier to work with than aluminium cases. I cut out the rectangular

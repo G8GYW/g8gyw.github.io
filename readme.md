@@ -15,7 +15,7 @@ The component cost, excluding PCB and display bezel, was around £25.
 
 <h3>DESCRIPTION</h3>
 
-The design utilises a Stockton Bridge. I used a binocular core instead
+The design utilises a Tandem coupler (also known as a Stockton bridge). I used a binocular core instead
 of the usual pair of toroids as this was smaller and easier to
 construct. A 10:1 turns ratio provides 20dB of coupling and 20 to 40dB
 of directivity.

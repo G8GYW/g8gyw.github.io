@@ -18,7 +18,7 @@ The component cost, excluding PCB and display bezel, was around £25.
 The design utilises a Tandem coupler (also known as a Stockton bridge). I used a binocular core instead
 of the usual pair of toroids as this was smaller and easier to
 construct. A 10:1 turns ratio provides 20dB of coupling and 20 to 40dB
-of directivity.
+of directivity up to 50MHz.
 
 <p align = "center"><img src="./Coupling & Directivity.png" width = "800"></p>
 <p align = "center"><img src="./insertion_vswr.png" width = "800"></p>

@@ -59,7 +59,7 @@ The battery is a 3.7V 150mAh Lithium-Ion Polymer cell as used in many
 radio controlled models. These are fitted with a PCB that provides
 protection against overcharging and short circuits, but it is important
 that they are charged correctly (constant current at 1C then constant
-voltage at 4.2V). Fortunately a very small charging module based on the
+voltage at 4.2V). Fortunately a small charging module based on the
 TP4056 IC is available very cheaply and all you need then is a USB lead
 and 5 Volt supply. You will also need to change a surface mount resistor
 on the charger board to set the current to the correct value (150mA).

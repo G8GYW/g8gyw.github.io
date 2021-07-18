@@ -1,4 +1,4 @@
-// QRP_POWER_METER.ino - https://github.com/G8GYW/QRP-RF-power-meter
+// https://g8gyw.github.io/
 //
 // Copyright (c) 2021 Mike G8GYW
 //
@@ -56,7 +56,7 @@ float Vbat;   // Battery voltage
 // Pfwd = aVfwd^2 + bVfwd (and the same for Prev and Vrev)
 // where a and b are constants determined by plotting Power In vs Vfwd and performing a curve fit.
 // An excellent tool for this can be found at https://veusz.github.io/
-// The values of a and b below can be adjusted if necessary to improve accuracy (try adjusing b first).
+// The values of a and b below can be adjusted if necessary to improve accuracy (try adjusting b first).
 
 const float IntRef = 1.1;
 const float a = 1.0;
@@ -94,7 +94,7 @@ float CalculateSWR ()
 // https://www.megunolink.com/documentation/arduino-libraries/exponential-filter/
 
 // Create new exponential filters with a weight of 90 and initial value of 0
-// Adjust as required for a stable display
+// Adjust these values as required for a stable display
 
 ExponentialFilter<float> FilteredPfwd(90, 0);
 ExponentialFilter<float> FilteredVSWR(90, 0);
@@ -115,6 +115,7 @@ void setup()
   float Vpot = analogRead (A2); // Read ADC again
   Vbat = 4.9 * ((Vpot + 0.5) * IntRef / 1024); // Calculate battery voltage scaled by R9 & R10
 
+// Display startup screen  
   Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  //Initialize with the I2C address 0x3C.
   display.clearDisplay();
@@ -146,6 +147,7 @@ void loop()
   FilteredVSWR.Filter(VSWR); // Apply filter to new value
   float SmoothVSWR = FilteredVSWR.Current(); // Return current value of filter output
 
+// Display Power and VSWR  
   display.clearDisplay();
   display.setTextSize(2);
   display.setCursor (12, 12);
@@ -157,7 +159,7 @@ void loop()
   display.print("SWR: ");
   display.setCursor (60, 36);
   if (Pfwd < 0.01)
-  { display.print("**.*");
+  { display.print("**.*"); // Blank invalid readings
   }
    else {
   display.print(SmoothVSWR, 1); // Display VSWR to one decimal place

@@ -152,7 +152,14 @@ programming adapter.
 
 Insert the Atmega328P into the socket and connect a PC or laptop to the
 ISP connector via the USBasp adapter. This will power up the board.
-Start the Arduino IDE and load [QRP_POWER_METER.ino](QRP_POWER_METER.ino).
+
+The first step is to ensure that the processor has the correct fuse values (E:FF H:D7 L:E2).
+These can be changed using AVRDUDE (https://www.nongnu.org/avrdude/) by running the following
+in a command window:
+
+avrdude -c usbasp -b 19200 -p m328p -e -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xE2:m
+
+Now start the Arduino IDE and load [QRP_POWER_METER.ino](QRP_POWER_METER.ino).
 Open the Tools menu and replicate the settings shown below, then hold the Shift key and click
 the Upload button. When programming is complete the display should show
 the startup screen, followed a few seconds later by the measurement

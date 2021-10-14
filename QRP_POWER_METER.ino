@@ -96,8 +96,8 @@ float CalculateSWR ()
 // Create new exponential filters with a weight of 90 and initial value of 0
 // Adjust these values as required for a stable display
 
-ExponentialFilter<float> FilteredPfwd(90, 0);
-ExponentialFilter<float> FilteredVSWR(90, 0);
+ExponentialFilter<float> FilteredPfwd(50, 0);
+ExponentialFilter<float> FilteredVSWR(50, 0);
 
 void setup()
 {

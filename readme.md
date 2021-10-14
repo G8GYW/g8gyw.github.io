@@ -184,6 +184,10 @@ in the code.
 Check the VSWR readings using different loads and power levels. Again,
 the accuracy should be better than 5% between 1 and 10 Watts.
 
+The software uses an exponential filter to smooth out variations in the display.
+The weighting factor is set to 50 in lines 99 and 100 of the code. This can be adjusted
+up or down to obtain a stable display.
+
 The maximum power reading is about 12 Watts as the forward voltage approaches the 
 upper limit of the ADC input range.
 
